@@ -1,0 +1,154 @@
+<!--
+	Copyright (c) 2016 Motorola Mobility, LLC.
+	All rights reserved.
+
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions are met:
+	1. Redistributions of source code must retain the above copyright notice,
+	this list of conditions and the following disclaimer.
+	2. Redistributions in binary form must reproduce the above copyright notice,
+	this list of conditions and the following disclaimer in the documentation
+	and/or other materials provided with the distribution.
+	3. Neither the name of the copyright holder nor the names of its
+	contributors may be used to endorse or promote products derived from this
+	software without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+	AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+	THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+	PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+	CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+	EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+	PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+	OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+	WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+	OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+	ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- description: [App name] -->
+    <string name="app_name">MDK Battery</string>
+    <!-- description: [Settings menu caption] -->
+    <string name="action_settings">Settings</string>
+    <!-- description: [About menu caption] -->
+    <string name="action_about">About</string>
+    <!-- description: [Learn more menu caption] -->
+    <string name="mod_external_link">Learn more</string>
+    <!-- description: [Developer site menu caption] -->
+    <string name="mod_external_dev_portal">Moto Mods™ Developer Portal</string>
+    <!-- description: [Buy Mod menu caption] -->
+    <string name="mod_external_buy_mdk">Buy Moto Mods™ Development Kit</string>
+    <!-- description: [Privacy Policy menu caption] -->
+    <string name="action_privacy_policy">Privacy Policy</string>
+
+    <!-- description: [Mod Status caption] -->
+    <string name="mod_status_title">Moto Mods Status</string>
+    <!-- description: [Mod name caption] -->
+    <string name="mod_name">Name</string>
+    <!-- description: [Mod Firmware caption] -->
+    <string name="mod_status_firmware">Firmware</string>
+    <!-- description: [Mod VID caption] -->
+    <string name="mod_status_vid" translatable="false">VID</string>
+    <!-- description: [Mod PID caption] -->
+    <string name="mod_status_pid" translatable="false">PID</string>
+    <!-- description: [Mod Package name caption] -->
+    <string name="mod_status_package_name">Package Name</string>
+    <!-- description: [Mod URI caption] -->
+    <string name="mod_status_uri" translatable="false">URI</string>
+    <!-- description: [Mod UUID caption] -->
+    <string name="mod_status_uid" translatable="false">UUID</string>
+    <!-- description: [Mod PID/VID caption] -->
+    <string name="mod_pid_vid_format" translatable="false">0x<xliff:g id="id">%1$08x</xliff:g></string>
+
+    <!-- description: [None info] -->
+    <string name="na">n/a</string>
+    <!-- description: [Default info] -->
+    <string name="name_default">Default</string>
+    <!-- description: [Unknown info] -->
+    <string name="unknown">Unknown</string>
+
+    <!-- description: [Version caption. For example: 01.00] -->
+    <string name="version_main_minor" translatable="false"><xliff:g id="main_version">%1$d</xliff:g>.<xliff:g id="minor_version">%2$d</xliff:g></string>
+    <!-- description: [Mod service is available] -->
+    <string name="SERVICE_SUCCESS">MOD_SERVICE_AVAILABLE</string>
+    <!-- description: [Mod service is missing] -->
+    <string name="SERVICE_MISSING">MOD_SERVICE_MISSING</string>
+    <!-- description: [Mod service is updating] -->
+    <string name="SERVICE_UPDATING">MOD_SERVICE_UPDATING</string>
+    <!-- description: [Mod service need be updated] -->
+    <string name="SERVICE_VERSION_UPDATE_REQUIRED">MOD_SERVICE_VERSION_UPDATE_REQUIRED</string>
+    <!-- description: [Mod service is disabled] -->
+    <string name="SERVICE_DISABLED">MOD_SERVICE_DISABLED</string>
+    <!-- description: [Mod service is invalid] -->
+    <string name="SERVICE_INVALID">MOD_SERVICE_INVALID</string>
+    <!-- description: [Mod information] -->
+    <string name="about_content">Version: <xliff:g id="version_name">%1$s</xliff:g>\n\nPhone UID: <xliff:g id="phone_uid">%2$s</xliff:g>\n\nMoto Mods UID: <xliff:g id="mod_uid">%3$s</xliff:g>\n\nRequired Moto Mods SDK: <xliff:g id="sdk_version">%4$s</xliff:g></string>
+    <!-- description: [Mod service information] -->
+    <string name="about_service_version">Moto Mods Platform Version: <xliff:g id="main_version">%1$d</xliff:g>.<xliff:g id="minor_version">%2$d</xliff:g>\nMoto Mods SDK Version: <xliff:g id="main_version">%3$d</xliff:g>.<xliff:g id="minior_version">%4$d</xliff:g></string>
+    <!-- description: [MDKBattery source code link on Github] -->
+    <string name="host_url"><a href="https://github.com/MotorolaMobilityLLC/mdkbattery">Project on Github</a></string>
+
+    <!-- description: [Battery status caption] -->
+    <string name="battery_status">Battery Status</string>
+    <!-- description: [Phone caption] -->
+    <string name="status_core_battery">Phone</string>
+    <!-- description: [Mod caption] -->
+    <string name="status_mod_battery">Mod</string>
+    <!-- description: [Discharging status caption] -->
+    <string name="status_mod_battery_status">Discharging</string>
+    <!-- description: [Battery setting button caption] -->
+    <string name="status_settings_battery">SETTINGS->BATTERY</string>
+    <!-- description: [Battery summary caption] -->
+    <string name="status_mod_battery_summary">Mod Battery is integrated across the Framework. Explore the notification curtain, Android keyguard, and Android Settings > Battery to see this in action.</string>
+
+    <!-- description: [Mod battery absent] -->
+    <string name="mod_battery_absent">Mod battery absent</string>
+    <!-- description: [Mod battery is charging] -->
+    <string name="mod_is_charging">Mod is charging</string>
+    <!-- description: [Charging is completed] -->
+    <string name="charging_complete">Charging complete</string>
+    <!-- description: [Phone is charging] -->
+    <string name="phone_is_charging">Phone is charging</string>
+    <!-- description: [Device is charging by power source] -->
+    <string name="charging_on"><xliff:g id="device">%1$s</xliff:g> on <xliff:g id="charging_source">%2$s</xliff:g></string>
+    <!-- description: [Power source is AC] -->
+    <string name="ac">AC</string>
+    <!-- description: [Power source is USB] -->
+    <string name="usb">USB</string>
+    <!-- description: [Power source is wireless charger] -->
+    <string name="wireless">Wireless</string>
+    <!-- description: [percent] -->
+    <string name="percentage" translatable="false">%</string>
+    <!-- description: [mAh] -->
+    <string name="mah" translatable="false">mAh</string>
+
+    <!-- description: [Device is charging power] -->
+    <string name="charging">Charging</string>
+    <!-- description: [Device is discharging power] -->
+    <string name="discharging">Discharging</string>
+    <!-- description: [Device is not charging] -->
+    <string name="not_charging">Not charging</string>
+    <!-- description: [Device is charged to full] -->
+    <string name="full">Full</string>
+    <!-- description: [Mod is charging phone] -->
+    <string name="mod_is_charging_core">Mod is charging phone</string>
+    <!-- description: [Mod will charging phone after phone battery level is less than device_level] -->
+    <string name="transfer_paused_level">Transfer paused until phone is at <xliff:g id="device_level">%1$s</xliff:g></string>
+    <!-- description: [Mod battery is empty] -->
+    <string name="mod_battery_empty">Mod Battery is empty</string>
+
+    <!-- description: [Phone and mod battery status caption] -->
+    <string name="unknown_status">Phone: <xliff:g id="phone_status">%1$d</xliff:g> mod: <xliff:g id="mod_status">%2$d</xliff:g></string>
+    <!-- description: [Mod battery working type] -->
+    <string name="mod_battery_type">Mod Battery Usage: <xliff:g id="usage_mode">%1$s</xliff:g>\nEfficiency Mode: <xliff:g id="efficiency_mode">%2$s</xliff:g></string>
+    <!-- description: [The switcher is turn ON] -->
+    <string name="on">ON</string>
+    <!-- description: [The switcher is turn OFF] -->
+    <string name="off">OFF</string>
+    <!-- description: [Mod usage tye is Emergency] -->
+    <string name="battery_usage_type_emergency">Emergency</string>
+    <!-- description: [Mod usage tye is Remote] -->
+    <string name="battery_usage_type_remote">Remote</string>
+    <!-- description: [Mod usage tye is Supplemental] -->
+    <string name="battery_usage_type_supplemental">Supplemental</string>
+</resources>
