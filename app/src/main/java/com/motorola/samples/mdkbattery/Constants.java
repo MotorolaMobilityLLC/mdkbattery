@@ -35,8 +35,8 @@ public class Constants {
     public static final String TAG = "MDKBattery";
 
     public static String URL_PRIVACY_POLICY = "https://motorola.com/device-privacy";
-    public static String URL_DEV_PORTAL = "http://developer.motorola.com";
-    public static String URL_MOD_STORE = "http://developer.motorola.com/buy/";
+    public static String URL_DEV_PORTAL = "http://developer.motorola.com/build/examples/battery";
+    public static String URL_SOURCE_CODE = "https://github.com/MotorolaMobilityLLC/mdkbattery";
 
     public static final int INVALID_ID = -1;
     public static final int BATTERY_INVALID = -1;
@@ -44,4 +44,5 @@ public class Constants {
     public static final int VID_MDK = 0x00000312;
     public static final int VID_DEVELOPER = 0x00000042;
     public static final int PID_DEVELOPER = 0x00000001;
+    public static final int PID_BATTERY = 0x00010803;
 }
