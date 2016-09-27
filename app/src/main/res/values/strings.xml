@@ -149,4 +149,7 @@
     <string name="battery_usage_type_remote">Remote</string>
     <!-- description: [Mod usage tye is Supplemental] -->
     <string name="battery_usage_type_supplemental">Supplemental</string>
+
+    <!-- description: [The Dip switch config title prompt] -->
+    <string name="dip_description_title">Dip switch configuration</string>
 </resources>
