@@ -239,8 +239,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
             if (null != device) {
                 tvName.setText(device.getProductString());
 
-                if (device.getVendorId() == Constants.VID_MDK
-                        && device.getProductId() == Constants.PID_BATTERY) {
+                if ((device.getVendorId() == Constants.VID_MDK
+                        && device.getProductId() == Constants.PID_BATTERY)
+                        || device.getVendorId() == Constants.VID_DEVELOPER)  {
                     tvName.setTextColor(getColor(R.color.mod_match));
                 } else {
                     tvName.setTextColor(getColor(R.color.mod_mismatch));
@@ -340,8 +341,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (device == null) {
             // Mod not attached
             return false;
-        } else if (device.getVendorId() == Constants.VID_DEVELOPER
-                && device.getProductId() == Constants.PID_DEVELOPER) {
+        } else if (device.getVendorId() == Constants.VID_DEVELOPER) {
             // MDK in developer mode
             return true;
         } else {
